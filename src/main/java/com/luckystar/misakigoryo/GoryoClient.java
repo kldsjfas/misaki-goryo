@@ -37,7 +37,7 @@ public final class GoryoClient {
 
     static {
         var builder=new ForgeConfigSpec.Builder();
-        VOICE_LANGUAGE=builder.comment("Select the matching optional Misaki voice resource pack.")
+        VOICE_LANGUAGE=builder.comment("Misaki voice language: zh_cn (Chinese) or ja_jp (Japanese). Both are included.")
             .defineInList("voiceLanguage","zh_cn",java.util.List.of("zh_cn","ja_jp"));
         SPEC=builder.build();
     }
@@ -73,7 +73,7 @@ public final class GoryoClient {
         if(owner==null) return;
         ResourceLocation sound=new ResourceLocation("misaki_goryo",
             "misaki."+VOICE_LANGUAGE.get()+"."+event);
-        // An optional pack may be absent; don't ask the sound engine to log a missing event.
+        // 资源被其他资源包覆盖或移除时，跳过缺失事件，避免刷屏。
         if(client.getSoundManager().getSoundEvent(sound)==null) return;
         var instance=new SimpleSoundInstance(SoundEvent.createVariableRangeEvent(sound),
             SoundSource.PLAYERS,0.85F,1,RandomSource.create(),owner.getX(),owner.getY()+0.8,owner.getZ());

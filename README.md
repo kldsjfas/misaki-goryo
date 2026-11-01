@@ -1,6 +1,6 @@
 # 美咲的太刀：真龙御礼
 
-> 拔刀剑 Resharped 附属模组 · Minecraft 1.20.1 Forge · 模组 ID `misaki_goryo` · 版本 1.0.2
+> 拔刀剑 Resharped 附属模组 · Minecraft 1.20.1 Forge · 模组 ID `misaki_goryo` · 版本 1.0.3
 >
 > 本模组为《吉星派对》同人作品，与《吉星派对》官方无关。
 
@@ -133,12 +133,16 @@
 
 ## 关于语音
 
-模组**不附带任何语音**，也不附带音频文件，所有音效都引用原版 Minecraft 的声音。代码里保留了美咲语音的播放接口：只有玩家自己装了提供 `misaki_goryo:misaki.<语言>.<事件>` 声音事件的资源包时才会出声，没装时完全静默、不报错。
+模组内置《吉星派对》龙崎美咲的中文、日文原音，随四阶、五阶太刀的刀灵事件播放，无需另装语音资源包。
+
+客户端配置位于 `config/misaki_goryo-client.toml`，`voiceLanguage` 默认为 `"zh_cn"`（中文）；改为 `"ja_jp"` 可使用日文语音。
+
+语音音频的权利归《吉星派对》官方及相关权利人所有，不适用本项目代码的 MIT 许可。
 
 ## 许可与声明
 
 - 本模组为《吉星派对》同人作品。龙崎美咲、三神教、联合城等角色与设定的权利归《吉星派对》官方所有。
-- 代码以 MIT 许可发布。
+- 代码以 MIT 许可发布；内置原作语音的权利归原作及相关权利人所有，不属代码 MIT 许可。
 - 刀的模型和刀身贴图为本模组制作，造型参照《吉星派对》原作；物品图标框里不含任何原作卡面图片。
 - 刀灵美咲的两张皮肤来自 AstralCraft（Glyceryl6/AstralCraft），该项目声明为 MIT 许可，并致谢「哈基尽：部分贴图」；闭眼皮肤在其基础上修改。详细来源见 jar 内的 `NOTICE.txt`。
 - 欢迎在整合包中使用，转载请注明出处。
@@ -161,11 +165,11 @@
   - `BladeArts` / `BladeCombat`：二到五阶特殊攻击的注册、表现和分段伤害。
   - `DragonBlade`：真龙御礼的被动。
   - `GoryoBladeService`：合成继承、四阶自动觉醒、进度。
-  - `GoryoSpiritEvents` / `MisakiSpirit*` / `GoryoVoice`：刀灵美咲（实体、模型、动作、气泡台词、可选语音）。
+  - `GoryoSpiritEvents` / `MisakiSpirit*` / `GoryoVoice`：刀灵美咲（实体、模型、动作、气泡台词、中日语音）。
   - `GoryoFlight`：四阶起的御刀飞行。
   - `GoryoConfig`：通用配置。
 - `src/main/resources/data/misaki_goryo/`：命名刀定义、合成表、进度。
 - `src/main/resources/assets/misaki_goryo/`：刀模型、美咲贴图与骨骼数据、语言文件、音效定义。
 - `src/main/resources/assets/simplytooltips/`：可选的 SimplyTooltips 提示框主题。
 
-许可见 `LICENSE`（代码 MIT）与 `NOTICE.txt`（美术与角色来源）。
+许可见 `LICENSE`（代码 MIT）与 `NOTICE.txt`（美术、角色与语音来源）。

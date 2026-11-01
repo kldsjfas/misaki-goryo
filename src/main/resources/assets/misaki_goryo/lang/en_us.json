@@ -117,5 +117,15 @@
   "subtitles.misaki_goryo.goryo.dragon_roar": "Dragon roars",
   "subtitles.misaki_goryo.goryo.draw": "Blade drawn",
   "subtitles.misaki_goryo.goryo.sheath": "Blade sheathed",
-  "subtitles.misaki_goryo.misaki.voice": "Misaki speaks"
+  "subtitles.misaki_goryo.misaki.voice": "Misaki speaks",
+  "goryo.voice.fanfare": "Misaki arrives",
+  "goryo.voice.awake": "Misaki awakens",
+  "goryo.voice.attack": "Misaki attacks",
+  "goryo.voice.combo_finish": "Misaki finishes a combo",
+  "goryo.voice.skill": "Misaki uses a blade art",
+  "goryo.voice.skill_dragon": "Misaki uses a dragon blade art",
+  "goryo.voice.kill": "Misaki defeats an enemy",
+  "goryo.voice.win": "Misaki celebrates victory",
+  "goryo.voice.heavyhurt": "Misaki is hurt",
+  "goryo.voice.dead": "Misaki falls"
 }

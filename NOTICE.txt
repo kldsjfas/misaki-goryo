@@ -22,6 +22,8 @@ This mod is a fan work of the game "Lucky Star Party" and is not affiliated with
    assets/misaki_goryo/model/blades/ 下的 obj、mtl、png 为本模组制作，刀的造型参照《吉星派对》原作。
    贴图下方物品图标的菱形框里，原本放的原作卡面胸像已经去掉，换成纯色底，模组不附带任何原作卡面图片。
 
-5. 音效 / Sounds
-   本模组只引用原版 Minecraft 音效，不附带任何音频文件。
-   美咲语音不随模组发布；代码只在玩家自己装了对应资源包时才播放，没有资源包时不出声也不报错。
+5. 语音与音效 / Voice and sounds
+   内置《吉星派对》龙崎美咲的中文、日文原音，无需另装语音资源包。
+   客户端 config/misaki_goryo-client.toml 中 voiceLanguage 默认为 "zh_cn"（中文），可改为 "ja_jp"（日文）。
+   语音音频的权利归《吉星派对》官方及相关权利人所有，不适用本项目代码的 MIT 许可。
+   其他音效引用原版 Minecraft 的声音。

@@ -53,5 +53,237 @@
         "volume": 0.75
       }
     ]
+  },
+  "misaki.zh_cn.fanfare": {
+    "replace": true,
+    "subtitle": "goryo.voice.fanfare",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/zh_cn/fanfare_502566418_3.50s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.zh_cn.awake": {
+    "replace": true,
+    "subtitle": "goryo.voice.awake",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/zh_cn/awake_19599541_4.17s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.zh_cn.attack": {
+    "replace": true,
+    "subtitle": "goryo.voice.attack",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/zh_cn/fight_atk_315468030_0.42s",
+        "stream": false
+      },
+      {
+        "name": "misaki_goryo:misaki/zh_cn/max_fight_atk_366449901_0.44s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.zh_cn.combo_finish": {
+    "replace": true,
+    "subtitle": "goryo.voice.combo_finish",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/zh_cn/02_fight_atk_713679662_1.23s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.zh_cn.skill": {
+    "replace": true,
+    "subtitle": "goryo.voice.skill",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/zh_cn/skill_485623280_0.80s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.zh_cn.skill_dragon": {
+    "replace": true,
+    "subtitle": "goryo.voice.skill_dragon",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/zh_cn/02_fight_atk_713679662_1.23s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.zh_cn.kill": {
+    "replace": true,
+    "subtitle": "goryo.voice.kill",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/zh_cn/kill_593689885_1.23s",
+        "stream": false
+      },
+      {
+        "name": "misaki_goryo:misaki/zh_cn/kill_892330896_1.07s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.zh_cn.win": {
+    "replace": true,
+    "subtitle": "goryo.voice.win",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/zh_cn/win_640055628_0.96s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.zh_cn.heavyhurt": {
+    "replace": true,
+    "subtitle": "goryo.voice.heavyhurt",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/zh_cn/heavyhurt_213019766_0.48s",
+        "stream": false
+      },
+      {
+        "name": "misaki_goryo:misaki/zh_cn/heavyhurt_449507455_0.28s",
+        "stream": false
+      },
+      {
+        "name": "misaki_goryo:misaki/zh_cn/heavyhurt_584024323_0.24s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.zh_cn.dead": {
+    "replace": true,
+    "subtitle": "goryo.voice.dead",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/zh_cn/dead_717479605_0.97s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.ja_jp.fanfare": {
+    "replace": true,
+    "subtitle": "goryo.voice.fanfare",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/ja_jp/fanfare_653521590_3.75s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.ja_jp.awake": {
+    "replace": true,
+    "subtitle": "goryo.voice.awake",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/ja_jp/awake_549319477_7.50s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.ja_jp.attack": {
+    "replace": true,
+    "subtitle": "goryo.voice.attack",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/ja_jp/fight_atk_405271880_0.37s",
+        "stream": false
+      },
+      {
+        "name": "misaki_goryo:misaki/ja_jp/max_fight_atk_842077286_0.37s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.ja_jp.combo_finish": {
+    "replace": true,
+    "subtitle": "goryo.voice.combo_finish",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/ja_jp/02_fight_atk_447359291_2.37s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.ja_jp.skill": {
+    "replace": true,
+    "subtitle": "goryo.voice.skill",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/ja_jp/skill_146953597_2.00s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.ja_jp.skill_dragon": {
+    "replace": true,
+    "subtitle": "goryo.voice.skill_dragon",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/ja_jp/02_fight_atk_447359291_2.37s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.ja_jp.kill": {
+    "replace": true,
+    "subtitle": "goryo.voice.kill",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/ja_jp/kill_647425350_1.25s",
+        "stream": false
+      },
+      {
+        "name": "misaki_goryo:misaki/ja_jp/kill_953228894_1.62s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.ja_jp.win": {
+    "replace": true,
+    "subtitle": "goryo.voice.win",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/ja_jp/win_628186306_1.87s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.ja_jp.heavyhurt": {
+    "replace": true,
+    "subtitle": "goryo.voice.heavyhurt",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/ja_jp/heavyhurt_119784883_0.50s",
+        "stream": false
+      },
+      {
+        "name": "misaki_goryo:misaki/ja_jp/heavyhurt_301860297_0.24s",
+        "stream": false
+      },
+      {
+        "name": "misaki_goryo:misaki/ja_jp/heavyhurt_647579726_0.25s",
+        "stream": false
+      }
+    ]
+  },
+  "misaki.ja_jp.dead": {
+    "replace": true,
+    "subtitle": "goryo.voice.dead",
+    "sounds": [
+      {
+        "name": "misaki_goryo:misaki/ja_jp/dead_332355526_0.99s",
+        "stream": false
+      }
+    ]
   }
 }

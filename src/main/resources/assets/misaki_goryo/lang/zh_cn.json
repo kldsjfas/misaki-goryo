@@ -117,5 +117,15 @@
   "subtitles.misaki_goryo.goryo.dragon_roar": "龙吟",
   "subtitles.misaki_goryo.goryo.draw": "拔刀",
   "subtitles.misaki_goryo.goryo.sheath": "收刀",
-  "subtitles.misaki_goryo.misaki.voice": "美咲：说话"
+  "subtitles.misaki_goryo.misaki.voice": "美咲：说话",
+  "goryo.voice.fanfare": "美咲：登场",
+  "goryo.voice.awake": "美咲：觉醒",
+  "goryo.voice.attack": "美咲：攻击",
+  "goryo.voice.combo_finish": "美咲：连斩",
+  "goryo.voice.skill": "美咲：施展刀技",
+  "goryo.voice.skill_dragon": "美咲：真龙刀技",
+  "goryo.voice.kill": "美咲：击败敌人",
+  "goryo.voice.win": "美咲：胜利",
+  "goryo.voice.heavyhurt": "美咲：受伤",
+  "goryo.voice.dead": "美咲：倒下"
 }
