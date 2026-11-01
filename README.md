@@ -53,6 +53,7 @@
 - 四阶、五阶刀拿在主手时，美咲会出现在你右前上方；第一人称时她固定在画面右上角。
 - 默认按 **Alt + H** 收起或唤出（可以在按键设置里改）。
 - 她不会受伤、不挡路、不参与战斗，只负责陪你和说话。
+- 内置美咲的中文、日文语音，默认中文，可在客户端配置中切换。
 
 ### 御刀飞行（四阶起）
 
@@ -126,27 +127,18 @@
 | `growth.awakenProudSouls` | 2000 | 嘎呜切觉醒需要的耀魂 |
 | `passives.bladeFlight` | true | 四、五阶刀是否给飞行 |
 
+客户端 `config/misaki_goryo-client.toml` 中，`voiceLanguage` 设为 `"zh_cn"` 使用中文（默认），设为 `"ja_jp"` 使用日文。
+
 ## 指令（需要 OP）
 
 - `/goryo give <entry|sakura|gawoo|gawoo_awakened|dragon>`：直接拿一把对应的刀，方便服主和做整合包的人测试。
 - `/goryo art`：让主手里的刀立刻放一次特殊攻击。
 
-## 关于语音
-
-模组内置《吉星派对》龙崎美咲的中文、日文原音，随四阶、五阶太刀的刀灵事件播放，无需另装语音资源包。
-
-客户端配置位于 `config/misaki_goryo-client.toml`，`voiceLanguage` 默认为 `"zh_cn"`（中文）；改为 `"ja_jp"` 可使用日文语音。
-
-语音音频的权利归《吉星派对》官方及相关权利人所有，不适用本项目代码的 MIT 许可。
-
 ## 许可与声明
 
-- 本模组为《吉星派对》同人作品。龙崎美咲、三神教、联合城等角色与设定的权利归《吉星派对》官方所有。
-- 代码以 MIT 许可发布；内置原作语音的权利归原作及相关权利人所有，不属代码 MIT 许可。
-- 刀的模型和刀身贴图为本模组制作，造型参照《吉星派对》原作；五个阶段太刀的物品栏菱形图标使用原作美咲立绘，立绘权利归原作及相关权利人所有，不适用代码 MIT 许可。
-- 刀灵美咲的两张皮肤来自 AstralCraft（Glyceryl6/AstralCraft），该项目声明为 MIT 许可，并致谢「哈基尽：部分贴图」；闭眼皮肤在其基础上修改。详细来源见 jar 内的 `NOTICE.txt`。
-- 欢迎在整合包中使用，转载请注明出处。
+代码采用 [MIT 许可](LICENSE)。角色、立绘、语音及其他素材的来源与权利说明见 [NOTICE.txt](NOTICE.txt)。刀灵皮肤来自 [AstralCraft](https://github.com/Glyceryl6/AstralCraft)，闭眼版本在其基础上修改。
 
+欢迎在整合包中使用，转载请注明出处。
 
 ## 构建
 
@@ -171,5 +163,3 @@
 - `src/main/resources/data/misaki_goryo/`：命名刀定义、合成表、进度。
 - `src/main/resources/assets/misaki_goryo/`：刀模型、美咲贴图与骨骼数据、语言文件、音效定义。
 - `src/main/resources/assets/simplytooltips/`：可选的 SimplyTooltips 提示框主题。
-
-许可见 `LICENSE`（代码 MIT）与 `NOTICE.txt`（美术、角色与语音来源）。
