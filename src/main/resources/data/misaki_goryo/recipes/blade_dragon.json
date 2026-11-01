@@ -1,0 +1,33 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "misaki_goryo:dragon",
+  "category": "equipment",
+  "pattern": [
+    " S ",
+    "LBL",
+    " R "
+  ],
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "misaki_goryo:gawoo_awakened",
+        "refine": 10
+      }
+    },
+    "S": {
+      "item": "slashblade:proudsoul_trapezohedron"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "R": {
+      "item": "minecraft:dragon_head"
+    }
+  },
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

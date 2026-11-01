@@ -1,0 +1,33 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "misaki_goryo:sakura",
+  "category": "equipment",
+  "pattern": [
+    " C ",
+    "SBS",
+    " I "
+  ],
+  "key": {
+    "B": {
+      "type": "slashblade:blade",
+      "item": "slashblade:slashblade",
+      "request": {
+        "name": "misaki_goryo:entry",
+        "kill": 30
+      }
+    },
+    "C": {
+      "item": "slashblade:proudsoul_ingot"
+    },
+    "S": {
+      "item": "minecraft:cherry_planks"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

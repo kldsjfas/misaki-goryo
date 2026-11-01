@@ -1,0 +1,23 @@
+{
+  "name": "misaki_goryo:entry",
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 1
+    }
+  ],
+  "properties": {
+    "attack_base": 4,
+    "max_damage": 160,
+    "slash_art": "slashblade:judgement_cut",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "misaki_goryo:model/blades/entry.obj",
+    "texture": "misaki_goryo:model/blades/entry.png",
+    "carry_type": "katana",
+    "summon_sword_color": 16749765
+  }
+}

@@ -1,0 +1,27 @@
+美咲的太刀：真龙御礼 (misaki_goryo) - NOTICE
+
+本模组为《吉星派对》同人作品，与《吉星派对》官方无关。
+This mod is a fan work of the game "Lucky Star Party" and is not affiliated with its developers.
+
+1. 代码 / Code
+   src/main/java 下的全部代码以 MIT 许可发布，见 LICENSE。
+
+2. 角色与世界观 / Characters and setting
+   龙崎美咲、三神教、联合城、真龙御礼等角色与设定的权利归《吉星派对》官方所有。
+   模组里的刀名、刀的故事文字是同人创作。
+
+3. 刀灵美咲的皮肤 / Misaki skins
+   assets/misaki_goryo/textures/entity/misaki/skin_misaki_default.png
+   assets/misaki_goryo/textures/entity/misaki/skin_misaki_dragon_honor.png
+   来自 AstralCraft（GitHub: Glyceryl6/AstralCraft，提交 c039c9e208b1664e932adfd5f6e024a5d0abb3d6），
+   该项目元数据声明为 MIT 许可，README 致谢“哈基尽：部分贴图”。
+   两张 *_closed.png（闭眼）在上面两张图的基础上修改眼睛部分制作。
+   accessory_white.png 与刀灵的模型、动作数据为本模组原创。
+
+4. 刀模型与刀身贴图 / Blade models
+   assets/misaki_goryo/model/blades/ 下的 obj、mtl、png 为本模组制作，刀的造型参照《吉星派对》原作。
+   贴图下方物品图标的菱形框里，原本放的原作卡面胸像已经去掉，换成纯色底，模组不附带任何原作卡面图片。
+
+5. 音效 / Sounds
+   本模组只引用原版 Minecraft 音效，不附带任何音频文件。
+   美咲语音不随模组发布；代码只在玩家自己装了对应资源包时才播放，没有资源包时不出声也不报错。

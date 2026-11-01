@@ -1,0 +1,25 @@
+{
+  "type": "slashblade:shaped_blade",
+  "blade": "misaki_goryo:entry",
+  "category": "equipment",
+  "pattern": [
+    " IP",
+    " SI",
+    "S  "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "minecraft:pink_petals"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "slashblade:slashblade"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "title": {
+      "translate": "advancements.misaki_goryo.stage_5.title"
+    },
+    "description": {
+      "translate": "advancements.misaki_goryo.stage_5.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "misaki_goryo:goryo/stage_4"
+}

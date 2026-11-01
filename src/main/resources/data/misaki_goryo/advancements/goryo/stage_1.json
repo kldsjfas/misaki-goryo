@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_petals"
+    },
+    "title": {
+      "translate": "advancements.misaki_goryo.stage_1.title"
+    },
+    "description": {
+      "translate": "advancements.misaki_goryo.stage_1.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/cherry_planks.png"
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

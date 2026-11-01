@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cherry_sapling"
+    },
+    "title": {
+      "translate": "advancements.misaki_goryo.stage_2.title"
+    },
+    "description": {
+      "translate": "advancements.misaki_goryo.stage_2.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "misaki_goryo:goryo/stage_1"
+}

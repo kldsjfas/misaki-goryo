@@ -1,0 +1,50 @@
+{
+  "items": {},
+  "components": [
+    {
+      "component": "misaki_goryo:goryo=entry",
+      "theme": "goryo_entry",
+      "border": "rarity_uncommon",
+      "badges": [
+        "TACHI",
+        "UNIQUE"
+      ]
+    },
+    {
+      "component": "misaki_goryo:goryo=sakura",
+      "theme": "goryo_sakura",
+      "border": "rarity_rare",
+      "badges": [
+        "TACHI",
+        "UNIQUE"
+      ]
+    },
+    {
+      "component": "misaki_goryo:goryo=gawoo",
+      "theme": "goryo_gawoo",
+      "border": "rarity_rare",
+      "badges": [
+        "TACHI",
+        "UNIQUE"
+      ]
+    },
+    {
+      "component": "misaki_goryo:goryo=gawoo_awakened",
+      "theme": "goryo_gawoo_awakened",
+      "border": "rarity_epic",
+      "badges": [
+        "TACHI",
+        "UNIQUE"
+      ]
+    },
+    {
+      "component": "misaki_goryo:goryo=dragon",
+      "theme": "goryo_dragon",
+      "border": "rarity_mythic",
+      "badges": [
+        "TACHI",
+        "MYTHIC"
+      ]
+    }
+  ]
+}

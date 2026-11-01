@@ -1,0 +1,26 @@
+{
+  "name": "misaki_goryo:gawoo",
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 1
+    }
+  ],
+  "properties": {
+    "attack_base": 6,
+    "max_damage": 300,
+    "slash_art": "misaki_goryo:gawoo",
+    "sword_type": [
+      "bewitched"
+    ],
+    "special_effects": [
+      "misaki_goryo:gawoo_spirit"
+    ]
+  },
+  "render": {
+    "model": "misaki_goryo:model/blades/gawoo.obj",
+    "texture": "misaki_goryo:model/blades/gawoo.png",
+    "carry_type": "katana",
+    "summon_sword_color": 16749765
+  }
+}

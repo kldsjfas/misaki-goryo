@@ -1,0 +1,1695 @@
+{
+  "schemaVersion": 1,
+  "candidateOnly": true,
+  "runtimeVerified": false,
+  "authoring": "Original B-route Misaki animation; no Murasame source or texture copied",
+  "unit": "ModelPart pixels and Euler degrees, +Y down, Rz * Ry * Rx",
+  "sampling": "piecewise-linear vectors, previous-keyframe booleans; action additive to idle",
+  "renderScale": 0.62,
+  "follow": {
+    "leftBlocks": 0.78,
+    "forwardBlocks": 0.75,
+    "headCenterLocalY": -6,
+    "serverLerp": 0.22,
+    "clientLerpTicks": 3,
+    "teleportDistanceBlocks": 8,
+    "lookBackAfterStillTicks": 60
+  },
+  "blink": {
+    "minimumIntervalTicks": 60,
+    "maximumIntervalTicks": 120,
+    "closedTicks": 3
+  },
+  "walk": {
+    "radiansPerTick": 0.35,
+    "amplitudeDegrees": 5
+  },
+  "clips": {
+    "idle": {
+      "durationTicks": 120,
+      "loop": true,
+      "frames": [
+        {
+          "tick": 0,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              0.0
+            ],
+            "body": [
+              0.0,
+              0,
+              0
+            ],
+            "right_arm": [
+              4.0,
+              0,
+              7
+            ],
+            "left_arm": [
+              4.0,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -48.0,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -48.0,
+              4,
+              -5
+            ],
+            "ponytail": [
+              0.0,
+              0,
+              0.0
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            -0.0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 10,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              0.0
+            ],
+            "body": [
+              0.49999999999999994,
+              0,
+              0
+            ],
+            "right_arm": [
+              5.0,
+              0,
+              7
+            ],
+            "left_arm": [
+              3.0,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -43.66987298107781,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -52.33012701892219,
+              4,
+              -5
+            ],
+            "ponytail": [
+              0.49999999999999994,
+              0,
+              0.3499999999999999
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            -0.15999999999999998,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 20,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              0.0
+            ],
+            "body": [
+              0.8660254037844386,
+              0,
+              0
+            ],
+            "right_arm": [
+              5.732050807568877,
+              0,
+              7
+            ],
+            "left_arm": [
+              2.267949192431123,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -43.66987298107781,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -52.33012701892219,
+              4,
+              -5
+            ],
+            "ponytail": [
+              0.8660254037844386,
+              0,
+              0.606217782649107
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            -0.27712812921102037,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 30,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              0.0
+            ],
+            "body": [
+              1.0,
+              0,
+              0
+            ],
+            "right_arm": [
+              6.0,
+              0,
+              7
+            ],
+            "left_arm": [
+              2.0,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -48.0,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -48.0,
+              4,
+              -5
+            ],
+            "ponytail": [
+              1.0,
+              0,
+              0.7
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            -0.32,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 40,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              0.0
+            ],
+            "body": [
+              0.8660254037844387,
+              0,
+              0
+            ],
+            "right_arm": [
+              5.732050807568878,
+              0,
+              7
+            ],
+            "left_arm": [
+              2.2679491924311224,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -52.33012701892219,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -43.66987298107781,
+              4,
+              -5
+            ],
+            "ponytail": [
+              0.8660254037844387,
+              0,
+              0.6062177826491071
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            -0.27712812921102037,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 50,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              0.0
+            ],
+            "body": [
+              0.49999999999999994,
+              0,
+              0
+            ],
+            "right_arm": [
+              5.0,
+              0,
+              7
+            ],
+            "left_arm": [
+              3.0,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -52.33012701892219,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -43.66987298107781,
+              4,
+              -5
+            ],
+            "ponytail": [
+              0.49999999999999994,
+              0,
+              0.3499999999999999
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            -0.15999999999999998,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 60,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              0.0
+            ],
+            "body": [
+              5.66553889764798e-16,
+              0,
+              0
+            ],
+            "right_arm": [
+              4.000000000000001,
+              0,
+              7
+            ],
+            "left_arm": [
+              3.9999999999999987,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -48.00000000000001,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -47.99999999999999,
+              4,
+              -5
+            ],
+            "ponytail": [
+              5.66553889764798e-16,
+              0,
+              3.9658772283535854e-16
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            -1.8129724472473535e-16,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 70,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              0.0
+            ],
+            "body": [
+              -0.4999999999999997,
+              0,
+              0
+            ],
+            "right_arm": [
+              3.0000000000000004,
+              0,
+              7
+            ],
+            "left_arm": [
+              4.999999999999999,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -43.66987298107781,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -52.33012701892219,
+              4,
+              -5
+            ],
+            "ponytail": [
+              -0.4999999999999997,
+              0,
+              -0.3499999999999998
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0.15999999999999992,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 80,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              3.5355339059327378
+            ],
+            "body": [
+              -0.8660254037844385,
+              0,
+              0
+            ],
+            "right_arm": [
+              2.2679491924311233,
+              0,
+              7
+            ],
+            "left_arm": [
+              5.732050807568877,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -43.6698729810778,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -52.3301270189222,
+              4,
+              -5
+            ],
+            "ponytail": [
+              -0.8660254037844385,
+              0,
+              -0.6062177826491069
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0.2771281292110203,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 90,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              5.0
+            ],
+            "body": [
+              -1.0,
+              0,
+              0
+            ],
+            "right_arm": [
+              2.0,
+              0,
+              7
+            ],
+            "left_arm": [
+              6.0,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -48.0,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -48.0,
+              4,
+              -5
+            ],
+            "ponytail": [
+              -1.0,
+              0,
+              -0.7
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0.32,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 100,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              3.5355339059327378
+            ],
+            "body": [
+              -0.8660254037844386,
+              0,
+              0
+            ],
+            "right_arm": [
+              2.267949192431123,
+              0,
+              7
+            ],
+            "left_arm": [
+              5.732050807568877,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -52.33012701892219,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -43.66987298107781,
+              4,
+              -5
+            ],
+            "ponytail": [
+              -0.8660254037844386,
+              0,
+              -0.606217782649107
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0.27712812921102037,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 110,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              0.0
+            ],
+            "body": [
+              -0.49999999999999967,
+              0,
+              0
+            ],
+            "right_arm": [
+              3.000000000000001,
+              0,
+              7
+            ],
+            "left_arm": [
+              4.999999999999999,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -52.33012701892219,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -43.66987298107781,
+              4,
+              -5
+            ],
+            "ponytail": [
+              -0.49999999999999967,
+              0,
+              -0.34999999999999976
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0.1599999999999999,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 120,
+          "rotations": {
+            "head": [
+              0,
+              0,
+              0.0
+            ],
+            "body": [
+              -1.133107779529596e-15,
+              0,
+              0
+            ],
+            "right_arm": [
+              3.999999999999998,
+              0,
+              7
+            ],
+            "left_arm": [
+              4.000000000000003,
+              0,
+              -7
+            ],
+            "right_leg": [
+              -48.000000000000014,
+              -4,
+              5
+            ],
+            "left_leg": [
+              -47.999999999999986,
+              4,
+              -5
+            ],
+            "ponytail": [
+              -1.133107779529596e-15,
+              0,
+              -7.931754456707171e-16
+            ],
+            "back_hair": [
+              0,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            3.625944894494707e-16,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        }
+      ]
+    },
+    "wave": {
+      "durationTicks": 36,
+      "loop": false,
+      "frames": [
+        {
+          "tick": 0,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 7,
+          "rotations": {
+            "head": [
+              -2,
+              -8,
+              5
+            ],
+            "right_arm": [
+              -30,
+              -10,
+              101
+            ]
+          },
+          "translations": {
+            "right_arm": [
+              0,
+              0,
+              -1.3
+            ]
+          },
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 12,
+          "rotations": {
+            "head": [
+              -2,
+              -8,
+              5
+            ],
+            "right_arm": [
+              -30,
+              -10,
+              86
+            ]
+          },
+          "translations": {
+            "right_arm": [
+              0,
+              0,
+              -1.3
+            ]
+          },
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 17,
+          "rotations": {
+            "head": [
+              -2,
+              -8,
+              5
+            ],
+            "right_arm": [
+              -30,
+              -10,
+              103
+            ]
+          },
+          "translations": {
+            "right_arm": [
+              0,
+              0,
+              -1.3
+            ]
+          },
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 22,
+          "rotations": {
+            "head": [
+              -2,
+              -8,
+              5
+            ],
+            "right_arm": [
+              -30,
+              -10,
+              86
+            ]
+          },
+          "translations": {
+            "right_arm": [
+              0,
+              0,
+              -1.3
+            ]
+          },
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 27,
+          "rotations": {
+            "head": [
+              -2,
+              -8,
+              5
+            ],
+            "right_arm": [
+              -30,
+              -10,
+              101
+            ]
+          },
+          "translations": {
+            "right_arm": [
+              0,
+              0,
+              -1.3
+            ]
+          },
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 36,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        }
+      ]
+    },
+    "hide": {
+      "durationTicks": 20,
+      "loop": false,
+      "frames": [
+        {
+          "tick": 0,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 5,
+          "rotations": {
+            "body": [
+              5,
+              0,
+              0
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0.45,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 11,
+          "rotations": {
+            "right_leg": [
+              -15,
+              0,
+              5
+            ],
+            "left_leg": [
+              -15,
+              0,
+              -5
+            ],
+            "right_arm": [
+              -12,
+              0,
+              20
+            ],
+            "left_arm": [
+              -12,
+              0,
+              -20
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            -2.0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 18,
+          "rotations": {
+            "right_arm": [
+              -5,
+              0,
+              8
+            ],
+            "left_arm": [
+              -5,
+              0,
+              -8
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            -1.0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 20,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": false
+        }
+      ]
+    },
+    "celebrate": {
+      "durationTicks": 36,
+      "loop": false,
+      "frames": [
+        {
+          "tick": 0,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 7,
+          "rotations": {
+            "right_arm": [
+              -30,
+              0,
+              100
+            ],
+            "left_arm": [
+              -30,
+              0,
+              -100
+            ],
+            "head": [
+              -7,
+              0,
+              0
+            ],
+            "right_leg": [
+              -12,
+              0,
+              4
+            ],
+            "left_leg": [
+              -12,
+              0,
+              -4
+            ]
+          },
+          "translations": {
+            "right_arm": [
+              0,
+              0,
+              -1.3
+            ],
+            "left_arm": [
+              0,
+              0,
+              -1.3
+            ]
+          },
+          "rootTranslation": [
+            0,
+            -1.8,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 15,
+          "rotations": {
+            "right_arm": [
+              -30,
+              0,
+              92
+            ],
+            "left_arm": [
+              -30,
+              0,
+              -92
+            ],
+            "head": [
+              -5,
+              0,
+              0
+            ]
+          },
+          "translations": {
+            "right_arm": [
+              0,
+              0,
+              -1.3
+            ],
+            "left_arm": [
+              0,
+              0,
+              -1.3
+            ]
+          },
+          "rootTranslation": [
+            0,
+            -0.4,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 23,
+          "rotations": {
+            "right_arm": [
+              -30,
+              0,
+              100
+            ],
+            "left_arm": [
+              -30,
+              0,
+              -100
+            ]
+          },
+          "translations": {
+            "right_arm": [
+              0,
+              0,
+              -1.3
+            ],
+            "left_arm": [
+              0,
+              0,
+              -1.3
+            ]
+          },
+          "rootTranslation": [
+            0,
+            -1.2,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 36,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        }
+      ]
+    },
+    "worry": {
+      "durationTicks": 44,
+      "loop": false,
+      "frames": [
+        {
+          "tick": 0,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 8,
+          "rotations": {
+            "body": [
+              12,
+              0,
+              0
+            ],
+            "head": [
+              7,
+              -10,
+              -4
+            ],
+            "right_arm": [
+              -48,
+              -25,
+              -32
+            ],
+            "left_arm": [
+              -20,
+              15,
+              10
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            -0.6
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 32,
+          "rotations": {
+            "body": [
+              12,
+              0,
+              0
+            ],
+            "head": [
+              7,
+              -10,
+              -4
+            ],
+            "right_arm": [
+              -48,
+              -25,
+              -32
+            ],
+            "left_arm": [
+              -20,
+              15,
+              10
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            -0.6
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 44,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        }
+      ]
+    },
+    "yawn": {
+      "durationTicks": 60,
+      "loop": false,
+      "frames": [
+        {
+          "tick": 0,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 12,
+          "rotations": {
+            "head": [
+              6,
+              0,
+              -5
+            ],
+            "left_arm": [
+              -125,
+              6,
+              -18
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": true,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 25,
+          "rotations": {
+            "head": [
+              8,
+              0,
+              -5
+            ],
+            "left_arm": [
+              -128,
+              -5,
+              -16
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": true,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 34,
+          "rotations": {
+            "head": [
+              7,
+              0,
+              -5
+            ],
+            "left_arm": [
+              -125,
+              6,
+              -18
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": true,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 43,
+          "rotations": {
+            "head": [
+              3,
+              0,
+              -2
+            ],
+            "left_arm": [
+              -95,
+              0,
+              -12
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 60,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        }
+      ]
+    },
+    "sa": {
+      "durationTicks": 28,
+      "loop": false,
+      "frames": [
+        {
+          "tick": 0,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 7,
+          "rotations": {
+            "root": [
+              0,
+              -18,
+              0
+            ],
+            "head": [
+              -4,
+              18,
+              0
+            ],
+            "body": [
+              -4,
+              0,
+              0
+            ],
+            "right_arm": [
+              -72,
+              -15,
+              -18
+            ],
+            "left_arm": [
+              -62,
+              12,
+              24
+            ],
+            "right_leg": [
+              40,
+              0,
+              -5
+            ],
+            "left_leg": [
+              52,
+              0,
+              6
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 8,
+          "rotations": {
+            "root": [
+              0,
+              -18,
+              0
+            ],
+            "head": [
+              -4,
+              18,
+              0
+            ],
+            "body": [
+              -4,
+              0,
+              0
+            ],
+            "right_arm": [
+              -72,
+              -15,
+              -18
+            ],
+            "left_arm": [
+              -62,
+              12,
+              24
+            ],
+            "right_leg": [
+              40,
+              0,
+              -5
+            ],
+            "left_leg": [
+              52,
+              0,
+              6
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": true,
+          "visible": true
+        },
+        {
+          "tick": 14,
+          "rotations": {
+            "root": [
+              0,
+              20,
+              0
+            ],
+            "head": [
+              -3,
+              -16,
+              0
+            ],
+            "body": [
+              -6,
+              0,
+              0
+            ],
+            "right_arm": [
+              -82,
+              10,
+              -48
+            ],
+            "left_arm": [
+              -24,
+              -6,
+              16
+            ],
+            "right_leg": [
+              58,
+              0,
+              -5
+            ],
+            "left_leg": [
+              40,
+              0,
+              6
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": true,
+          "visible": true
+        },
+        {
+          "tick": 21,
+          "rotations": {
+            "right_arm": [
+              -55,
+              -12,
+              -24
+            ],
+            "left_arm": [
+              -48,
+              8,
+              18
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": true,
+          "visible": true
+        },
+        {
+          "tick": 24,
+          "rotations": {
+            "right_arm": [
+              -45,
+              -12,
+              -20
+            ],
+            "left_arm": [
+              -40,
+              8,
+              15
+            ]
+          },
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        },
+        {
+          "tick": 28,
+          "rotations": {},
+          "translations": {},
+          "rootTranslation": [
+            0,
+            0,
+            0
+          ],
+          "closedEyes": false,
+          "swordDrawn": false,
+          "visible": true
+        }
+      ]
+    }
+  },
+  "reviewAliases": {
+    "sa_draw": {
+      "clip": "sa",
+      "tick": 7
+    },
+    "sa_release": {
+      "clip": "sa",
+      "tick": 14
+    },
+    "sheathe": {
+      "clip": "sa",
+      "tick": 24
+    }
+  },
+  "reviewSamples": [
+    {
+      "action": "idle",
+      "tick": 0
+    },
+    {
+      "action": "wave",
+      "tick": 17
+    },
+    {
+      "action": "hide",
+      "tick": 11
+    },
+    {
+      "action": "celebrate",
+      "tick": 7
+    },
+    {
+      "action": "worry",
+      "tick": 18
+    },
+    {
+      "action": "yawn",
+      "tick": 25
+    },
+    {
+      "action": "sa",
+      "tick": 7,
+      "label": "sa_draw"
+    },
+    {
+      "action": "sa",
+      "tick": 14,
+      "label": "sa_release"
+    },
+    {
+      "action": "sa",
+      "tick": 24,
+      "label": "sheathe"
+    }
+  ]
+}

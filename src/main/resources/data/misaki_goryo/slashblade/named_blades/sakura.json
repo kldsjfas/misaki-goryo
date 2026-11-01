@@ -1,0 +1,26 @@
+{
+  "name": "misaki_goryo:sakura",
+  "enchantments": [
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 1
+    }
+  ],
+  "properties": {
+    "attack_base": 5,
+    "max_damage": 180,
+    "slash_art": "misaki_goryo:sakura",
+    "sword_type": [
+      "bewitched"
+    ],
+    "special_effects": [
+      "misaki_goryo:sakura_edge"
+    ]
+  },
+  "render": {
+    "model": "misaki_goryo:model/blades/sakura.obj",
+    "texture": "misaki_goryo:model/blades/sakura.png",
+    "carry_type": "katana",
+    "summon_sword_color": 16749765
+  }
+}

@@ -1,0 +1,64 @@
+plugins {
+    id 'java'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+group = 'com.luckystar.misakigoryo'
+version = '1.0.2'
+base { archivesName = 'misaki_goryo-1.20.1' }
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(17)
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+    runs {
+        configureEach {
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', file('build/createSrgToMcp/output.srg').absolutePath
+        }
+        client {
+            workingDirectory project.file('run')
+            mods { misaki_goryo { source sourceSets.main } }
+        }
+        server {
+            workingDirectory project.file('run-server')
+            args '--nogui'
+            mods { misaki_goryo { source sourceSets.main } }
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    flatDir { dirs 'libs' }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.28'
+    // 唯一的必需前置：拔刀剑 Resharped。
+    implementation fg.deobf('local:SlashBladeResharped-1.20.1:1.1.23')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.named('processResources', ProcessResources) {
+    filteringCharset = 'UTF-8'
+    inputs.property 'version', project.version
+    filesMatching('META-INF/mods.toml') { expand(file: [jarVersion: project.version]) }
+}
+
+tasks.named('jar', Jar) {
+    preserveFileTimestamps = false
+    reproducibleFileOrder = true
+    from('NOTICE.txt')
+    from('LICENSE')
+    manifest.attributes(
+        'Specification-Title': 'misaki_goryo',
+        'Implementation-Title': 'misaki_goryo',
+        'Implementation-Version': project.version)
+    finalizedBy 'reobfJar'
+}

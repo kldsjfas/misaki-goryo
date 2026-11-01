@@ -1,0 +1,7 @@
+newmtl painted_atlas
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.03 0.03 0.03
+Ns 8
+d 1
+map_Kd dragon.png

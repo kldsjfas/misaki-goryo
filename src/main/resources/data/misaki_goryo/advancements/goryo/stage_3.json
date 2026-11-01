@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "title": {
+      "translate": "advancements.misaki_goryo.stage_3.title"
+    },
+    "description": {
+      "translate": "advancements.misaki_goryo.stage_3.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "done": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "misaki_goryo:goryo/stage_2"
+}
