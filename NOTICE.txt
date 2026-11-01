@@ -20,7 +20,8 @@ This mod is a fan work of the game "Lucky Star Party" and is not affiliated with
 
 4. 刀模型与刀身贴图 / Blade models
    assets/misaki_goryo/model/blades/ 下的 obj、mtl、png 为本模组制作，刀的造型参照《吉星派对》原作。
-   贴图下方物品图标的菱形框里，原本放的原作卡面胸像已经去掉，换成纯色底，模组不附带任何原作卡面图片。
+   五个阶段太刀的物品栏菱形图标使用《吉星派对》龙崎美咲的原作立绘。
+   立绘权利归《吉星派对》官方及相关权利人所有，不适用本项目代码的 MIT 许可。
 
 5. 语音与音效 / Voice and sounds
    内置《吉星派对》龙崎美咲的中文、日文原音，无需另装语音资源包。
